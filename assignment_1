@@ -1,0 +1,56 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* --> expression
+'hello' --> values
+-87.8 --> expression
+- --> expression
+/ --> expression
++ --> expression
+6 --> values
+
+
+2. What is the difference between string and variable?
+Ans: String is a sequence of characters and it is a data type. 
+While variable is a memory location that stores data.
+
+3. Describe three different data types.
+Ans: Text Type:	str --> used to define text.
+Numeric Types:	int, float, complex --> used to define integer value, decimal value and complex numbers respectively.
+Boolean Type:	bool --> used to define true or false value.
+
+4. What is an expression made up of? What do all expressions do?
+Ans: Expression is made up of values and mathematical operators. These are used to perform particular mathematical operation.
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans: Expression perform an operation and gives some output. Whereas statement is used to define a variable and assign a value to it.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Ans: bacon will contain 22 only.
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Ans: 'spam' + 'spamspam' --> spamspamspam
+'spam' * 3 --> spamspamspam
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans: Rules for variables:
+i. A variable name must start with a letter or the underscore.
+ii. A variable name cannot start with a number.
+iii. Variable names are case-sensitive.
+According to above rules, eggs is a valid variable but 100 is not.
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans: For integer value: int()
+For Floating-point number: float()
+For string : str()
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+Ans: TypeError: can only concatenate str (not "int") to str
+So, we have to convert 99 to string value.
+
+Solution:
+'I have eaten ' + '99' + ' burritos.'
+'I have eaten ' + str(9) + ' burritos.'
